@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link href="./style.css" rel="stylesheet">
 </head>
+
 <body>
-<script type="module" src="./main.js"></script>    
+    <form class="form" action>
+        <label class="form__label">
+            <input class="form__input" id="first" type="text" placeholder="enter a number">
+            <label class="label_cal">
+                <input class="form__radio" id="sum" type="radio">
+            </label>
+            <label class="label_cal">
+                <input class="form__radio" id="sum" name="action" type="radio">
+            </label>
+            <label class="label_cal">
+                <input class="form__radio" id="sub" name="action" type="radio">
+            </label>
+            <label class="label_cal">
+                <input class="form__radio" id="multi" name="action" type="radio">
+            </label>
+            <label class="label_cal">
+                <input class="form__radio" id="division" name="action" type="radio">
+            </label>
+            <input class="form__input" type="text">
+        </label>
+        <button class="button"></button>
+    </form>
+    <script src="./main.js" type="module"></script>
 </body>
+
 </html>

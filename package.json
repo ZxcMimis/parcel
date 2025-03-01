@@ -2,7 +2,7 @@
   "name": "parcel",
   "version": "1.0.0",
   "description": "",
-  "homepage": "zxcmimis.github.io/parcel/",
+  "homepage": "zxcmimis.github.io/parcel",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
